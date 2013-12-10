@@ -1,0 +1,143 @@
+/***********************
+z-ratings 插件样式表文件
+
+************************/
+.z_ratings {
+	float:left;
+	overflow:hidden;
+	width:100%;
+	margin: 20px auto 20px auto;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+.z_ratings span {
+	overflow:hidden;
+	display:inline-block;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	line-height: 30px;
+}
+.z_ratings span.title {
+	float:left;
+	overflow:hidden;
+	margin: 0 0 0 0;
+	padding: 0 10px 0 0;
+	line-height: 30px;
+	background: url(images/good.png) no-repeat right -32px;
+}
+.z_ratings span.tongji {
+	overflow:hidden;
+	margin: 0 0 0 10px;
+	padding: 0 0 0 0;
+	line-height: 30px;
+}
+a.rateUp {
+	overflow:hidden;
+	display:inline-block;
+	margin: 0 10px 0 0;
+	padding: 0 0 0 10px;
+	width: 73px;
+	height:30px;
+	line-height:30px;
+	background: #36A4EE url(images/good.png) no-repeat -110px -60px;
+	cursor:pointer;
+	color: #fff;
+	font-size: 14px;
+	text-shadow: 0 1px 0 #000;
+}
+a.rateDown {
+	overflow:hidden;
+	display:inline-block;
+	margin: 0 10px 0 0;
+	padding: 0 0 0 10px;
+	width: 87px;
+	height:30px;
+	line-height:30px;
+	background: #D0E2F2 url(images/good.png) no-repeat -203px -60px;
+	cursor:pointer;
+	color: #fff;
+	font-size: 14px;
+	text-shadow: 0 1px 0 #000;
+}
+a:hover.rateUp {
+	background: #D0E2F2 url(images/good.png) no-repeat -110px -90px;
+}
+a:hover.rateDown {
+	background: #D0E2F2 url(images/good.png) no-repeat -203px -90px;
+}
+a.rateFavor {
+	overflow:hidden;
+	display:inline-block;
+	margin: 0 5px 0 0;
+	padding: 0 0 0 10px;
+	width: 73px;
+	height:30px;
+	line-height:30px;
+	text-decoration:none;
+	background: #D0E2F2 url(images/good.png) no-repeat -310px -60px;
+	cursor:pointer;
+	color: #333;
+	font-size: 14px;
+	text-shadow: 0 1px 0 white;
+}
+a:hover.rateFavor {
+	background: #D0E2F2 url(images/good.png) no-repeat -310px -90px;
+}
+a:hover.rateUp, a:hover.rateDown, a:hover.rateFavor {
+	background-color: #BBCEE8;
+	text-decoration: none;
+}
+.div_cancel_rating {
+	position: fixed;
+	padding: 5px;
+	left: 35%;
+	top: 40%;
+	width: 320px;
+	height: 122px;
+	background: url(images/shareNoRepeat.gif) no-repeat;
+	z-index: 1000;
+}
+.collect_head {
+	position: relative;
+	height: 20px;
+	line-height: 20px;
+	color:#000;
+	font-size: 12px;
+}
+.collect_head a {
+	position: absolute;
+	top: 2px;
+	right: 9px;
+	line-height: 20px;
+	color:#000 !important;
+	text-decoration: none;
+}
+.collect_body {
+	overflow: hidden;
+	margin: 8px 0 10px 0;
+	width: 320px;
+	height: 75px;
+}
+.collect_body .collectSuccess {
+	height: 66px;
+	line-height: 22px;
+	margin: 0 0 0 0;
+	padding: 0 8px 0 75px;
+	padding-left: 65px\9;
+	font-weight: normal;
+	text-align: left;
+	color: #000;
+	font-size: 13px;
+	font-family: "微软雅黑", "宋体";
+	width: 230px;
+	vertical-align:middle;
+}
+.collect_body .collectSuccess table {
+	height: 66px;
+	width: 230px;
+}
+.collect_body .collectSuccess td {
+	height: 66px;
+	width: 230px;
+	vertical-align:middle;
+}

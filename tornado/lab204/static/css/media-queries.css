@@ -1,0 +1,90 @@
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 960px) {
+
+	#sidebar-left {	
+		display: none;
+	}
+
+	#wrap {
+		float:none;
+		overflow:hidden;
+		margin: 0 0 0 0;	
+	}
+
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video iframe {
+		min-height: 250px;
+	}
+
+}
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 640px) {
+	#sidebar-left {	
+		display: none;
+	}
+
+	#wrap {
+		float:none;
+		overflow:hidden;
+		margin: 0 0 0 0;	
+	}
+
+	#content {
+		width: 100%;	
+	}
+
+	#sidebar {
+		width: 100%;	
+	}
+
+	#toolbox {
+		display: none;
+	}
+
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video iframe {
+		min-height: 250px;
+	}	
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	#sidebar-left {	
+		display: none;
+	}
+
+	#wrap {
+		float:none;
+		overflow:hidden;
+		margin: 0 0 0 0;	
+	}
+
+	#content {
+		width: 100%;	
+	}
+
+	#sidebar {
+		display: none;
+	}
+
+	#toolbox {
+		display: none;
+	}
+
+}
+
